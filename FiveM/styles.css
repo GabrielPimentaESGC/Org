@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #323232;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://cdn.discordapp.com/attachments/1024719699696681044/1201348219066646660/Untitled-1.png?ex=65c97db7&is=65b708b7&hm=535e3e8b503d256c2320a6d144204e5402e35ecc1799c7f9a555cb446417714d&);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adiciona opacidade ao fundo branco */
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.calculate-button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.calculate-button:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.menu li {
+    margin-bottom: 10px;
+}
+
+ul.menu li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+ul.menu li a:hover {
+    background-color: #0056b3;
+}
